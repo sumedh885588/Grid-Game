@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="img-container"></div>
+      <!-- <div class="cropped-img"> -->
+        <div class="top">
+          <div class="piece" id="piece1" draggable="true"></div>
+          <div class="piece" id="piece2" draggable="true"></div>
+        
+        <!-- <div class="bottom" id="bottom"> -->
+          <div class="piece" id="piece3" draggable="true"></div>
+          <div class="piece" id="piece4" draggable="true"></div>
+        </div>
+      <!-- </div> -->
+      <div class="btns">
+        <button id="start" onClick="shuffle()">Start</button>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
